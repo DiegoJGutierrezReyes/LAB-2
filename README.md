@@ -41,6 +41,31 @@ El controlador Proporcional-Integral (PI), es un controlador que mezcla el contr
 
 Por último, el controlador Proporiconal-Integral-Derivado, es la mezcla del controlador PI sumándole un controlador derivado (D), la adición de este útlimo permite aumentar la respuesta del controlador porque predice perturbaciones al sistema midiendo el cambio en el error. Este controlador correlaciona la salida del controlador con el error, la integral del error y la derivada del error, si bien es el que mejor funciona de los 3, también es el más caro y complciado de diseñar.
 
+# Nivel Básico
+
+Para completar el nivel básico de la practica, se requiere crear un paquetes denominado "practicas_lab" de ros con las dependencias rospy, roscpp y std_msgs, esto se realiza mediante los siguientes comandos:
+
+$ cd ~/catkin_ws/src
+$ catkin_create_pkg practicas_lab std_msgs rospy roscpp
+
+Posteriormente se requiere agregar archivos correspondientes a nodos listener y talker dentro de esta carpeta, para ello es necesario acceder al siguiente repositorio de GitHub:
+
+https://github.com/cesar-martinez-torres/Formatos_LRT4102/tree/main/Codigos_clase/Lab2/Basic
+
+Con la dirección URL obtenida, se deben de clonar los archivos de Python en nuestra carpete practicas_lab, para ello es posbile emplear el siguiente comando:
+
+git clone https://github.com/cesar-martinez-torres/Formatos_LRT4102/tree/main/Codigos_clase/Lab2/Basic
+
+Con los archivos copiados dentro de nuestra carptea, es necesario compilar el paquete, una vez compilado se abre el Visual Code Studio para ejecutar los archivos de Python, cuandos se ejecuten, el archivo talker.pt comenzará a emitir un mensaje, el cual se podrá ver desde el programa listener.py
+
+[IMAGENE DEL TALKER Y LISTERNER, TANTO CÓDIGO COMO RESULTADO].
+
+
+# Nivel Intermedio
+
+
+# Nivel Avanzado
+
 
 
 
