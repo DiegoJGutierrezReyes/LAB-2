@@ -63,8 +63,37 @@ Con los archivos copiados dentro de nuestra carptea, es necesario compilar el pa
 
 # Nivel Intermedio
 
+Para el nivel intermedio se requieren cumplir 2 objetivos, el primero es crear un control por teclado para el turtle sim, de modo que el usuario pueda controlar por si mismo el movmiento de la torturga. El segundo objetivo es dibujar un cuadrado y un triángulo equilatero de forma automática.
+
+## Control por teclado
+
+Para controlar mediante el teclado el turtlesim, el nodo Publisher contendrá la solicitud de introducción de la información, que en este caso corresponde al teclado, por su parte, el nodo Listener será el Turtle Bot.
+
+Para leer las teclas en Python se emplea la función *input()*, la cual solicita una entrada de datos y la guarda en una variable de tipo cadena, en caso de requerir otro tipo de variable se debe de emplear el uso de un tipo de variable y colocar la función input dentro de esta.
+
+Las teclas empleadas para el movimiento de la tortuga son: **LETRAS DEL TECLADO** 
+
+Tras la solicitud e ingreso de la información, se manda al Turtlesim, de modo que este realizará lsos movimientos según indiquen los mensajes.
+
+En la siguiente Figura se observa una ruta de la tortuga realizada por el usuario, mientras que en la segunda imagen se observa los mensaje senvíados para realizar dichos movimientos.
+
+
+## Dibujar cuadrado y tríangiulo de modo autónomo
+
+Para realizar este objetivo se requiere mandar las rutas predeterminadas al robot, de modo que al ejecutar el programa el robot ejecute la secuencia. Las Figuras creadas se muestran en las siguientes Figuras.
+
+
 
 # Nivel Avanzado
+
+## Controlador P
+
+
+
+## Controlador PI
+
+
+## Controlador PID
 
 
 
